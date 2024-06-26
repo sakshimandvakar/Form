@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT-2</title>
+</head>
+<style>
+    .table{
+        width: 100%;
+        height: 500px;
+    }
+
+    .table-container{
+        border: 1px solid black;
+    }
+            button{
+            font-weight: bold;
+            border: 0px;
+        }
+
+        .table-container{
+            border: 1px solid black;
+        }
+        button{
+            width: 150px;
+            height: 20px;
+            background-color: rgb(156, 209, 204);
+        }
+        .colone{
+            background-color: rgb(156, 209, 204);
+        }
+        .box{
+            background-color: rgb(156, 209, 204) ;
+            border: 0px;
+            padding-left: 15px;
+        }
+        .select{
+            background-color: white;
+        }
+
+    
+</style>
+<body>
+    <!--FORM-1-->
+    <h3>Form 1:</h3>
+    <div class="table">
+    <table cellpadding="2" border="0" class="table-container"> 
+        <tr class="colone">
+            <td colspan="8">Workshop Registration
+            <select  class="box" name="" id="">
+                   <option class="select" value="">More Actions</option>
+                    <option class="select" value="">About us</option>
+                   <option class="select" value="">Contact us</option>
+            </td>      
+        </tr>
+            <tr >
+                <td><u>Register now while seats are available!</u></td>
+                </tr>
+                <tr >
+                    <td><b>First Name:</b></td>
+                    <td><input type="text"></td>
+                    <td style="padding-left: 70px;"><u>Lunch</u></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><b>Last Name:</b></td>
+                    <td><input type="text"></td>
+                    <td style="padding-left: 70px;"><b>Meal Performance</b></td>
+                    <td>
+                        <select>
+                            <optgroup>
+                                <option>Vegeterian</option>
+                                <option>Non-vegeterian</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Company/Institution:</b></td>
+                    <td><input type="text"></td>
+                    <td style="padding-left: 70px;"><u>Payment Details</u><br><br><b>Payment Mode</b><td ><br><br><br><input type="checkbox" name="payment mode" value="cash">Cash<br>
+                        <input type="checkbox" name="payment mode" value="cheque">Cheque<br>
+                        <input type="checkbox" name="payment mode" value="demand draft">Demand Draft
+                        </td></td>
+                </tr>
+                <tr>
+                    <td><b>Address:</b></td>
+                    <td><textarea name="comment" rows="5" cols="20"></textarea></td>
+                   
+                        </tr>
+                        <tr>
+                            <td><b>City</b></td>
+                            <td><input type="text"></td>
+                            <td style="padding-left:70px ;"><b>DD/Cheque No.</b></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><b>State/Province/Region</b></td>
+                            <td>
+                                <select>
+                                    <optgroup>
+                                        <option>-Select-</option>
+                                        <option>Maharashtra</option>
+                                    </optgroup>
+                                </td>
+                                </select>
+                                <td style="padding-left: 70px;"><b>Drawn On(Bank Name)</b> </td>
+                                <td><input type="text" ></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Country</b></td>
+                                    <td>
+                                        <select>
+                                            <optgroup>
+                                                <option>-Select-</option>
+                                                <option>India</option>
+                                                <option>Australia</option>
+                                                <option>Banglore</option>
+                                            </optgroup>
+                                        </select>
+                                    </td>
+                                    <td style="padding-left: 70px;"><b>Payable at</b></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Email</b></td>
+                                    <td> <input type="email" name="email"></td>
+                                    </tr>
+                                <tr><td><b>Phone Number</b></td>
+                                <td><input type="number" name="contact"></td>
+                                </tr>
+                                <tr bgcolor="lightgray">
+                                    <td align="center" colspan="20"> <button>Submit</button>
+                                    <button>Reset</button>
+                                    </tr>
+                            </table>
+                        </div><br><br>
+                            
+                             <!--FORM_2-->
+                            <style>
+                                .main{
+                                         width: 700px;
+                                         height: auto;
+                                         background-color: rgb(33, 89, 98);
+                                         color: white;
+                                     }
+                                    h1{
+                                         text-align: center;
+                                         padding-top: 5px;
+                                    }
+                                
+                                   .position{
+                                      margin-left: 12px;
+                                
+                                   } 
+            
+                                  .button{
+                                   text-align: center;
+                                   margin-left: 10px;
+                                  
+                                  }
+                                  .btn{
+                                   background-color: #e7792a;
+                                   border-radius: 4px;
+                                   border-color: #e7792a;
+                                   margin-left: 5px;
+                                   width: 20%
+                        
+                                  }
+        
+                                </style>
+                            
+                             <h3>Form 2:</h3>
+                                   <form action="">
+                                         <div class="main">
+                                             <h1>Application Form </h1>
+                                             
+                                             <Table cellpadding="12" cellspacing="2">
+                                             <tr class="name"> 
+                                                 <td> <label for="FirstName" >First Name:</label></td>   
+                                                 <td> <input type="text" id="FirstName"> </td> 
+                                                 <td> <label for="LastName">Last Name:</label></td>
+                                                 <td> <input type="text" id="LastName"> </td>
+                                            </tr>
+                                            <tr class="name"> 
+                                             <td><label for="date">Date of birth:</label></td>   
+                                             <td><input type="date" id="date"></td>
+                                             <td><label for="age">Age:</label></td> 
+                                             <td><input type="age"></td>
+                                            </tr>
+                                            
+                                           <tr class="name">
+                                             <td><label for="gender">Gender:</label></td></td>
+                                             <td> <select name="" id="">
+                                                 <option value="">Male</option>
+                                                 <option value="">Female</option>
+                                                 <option value="">Other</option>
+                                                </select> </td>
+                                             <td><label for="email">Email Address:</label></td>
+                                             <td><input type="Email" id="email"></td>
+                                          </tr>
+                                      </Table>
+                                              <div class="position">
+                                               <label for="">Position Available:</label>
+                                               <input type="radio"  name="radio"> Junior Developer
+                                               <input type="radio"  name="radio"> Mid-level Developer
+                                               <input type="radio"  name="radio"> Senior Developer <br><br>
+                                               <label for="checkbox">Programming Languages:</label>
+                                               <input type="checkbox" Name="checkbox"> Java
+                                               <input type="checkbox" Name="checkbox"> JavaScript
+                                               <input type="checkbox" Name="checkbox"> python
+                                              </div> <br>
+                                              <div class="radio">
+                                               <label for="password" style="margin-left:10px;">Password:</label>
+                                               <input type="password" Name="password">
+                                               <label for="password"  style="margin-left:70px;">Confirm Password:</label>
+                                               <input type="password" Name="password"><br>
+                                            </div> <br> <br>
+                                              
+                                              <div class="button">
+                                                 <input type="button" value="Button"class="btn">
+                                                 <input type="button" value="Reset"  class="btn">
+                                              </div><br>
+                                      </div>
+                                     </form> 
+                                     <br><br>
+
+
+
+                                     <!--FORM-3-->
+                                     <h3>Form 3:</h3>
+                                     <fieldset>
+                                        <legend> Your adderss </legend> 
+                                        <Table border="0">
+                                            <tr>
+                                             <th> <lable> First Name </lable> </th>
+                                             <th> <input type="text" style="margin-left: 150px;">  <br> </th> 
+                                           </tr> 
+                                           <tr>
+                                            <th> <lable>Last Name </lable> </th>
+                                            <th> <input type="text"style="margin-left: 150px;" > <br>  </th> 
+                                          </tr> 
+                                          <tr>
+                                            <th> <lable> Street </lable> </th>
+                                            <th> <input type="text" style="margin-left: 150px;"> <br>  </th>
+                                          </tr>
+                                          <tr>
+                                            <th> <lable> City </lable> </th>
+                                            <th> <input type="text" style="margin-left: 150px;"> <br> </th>  
+                                          </tr> 
+                                         </Table>
+                                       
+                                    </fieldset> <br> 
+                                    <fieldset>
+                                        <legend> Additional details </legend>
+                                        <table border="0">
+                                            <tr>
+                                                <th><lable>Biography</lable></th>
+                                                <td><textarea name="comment" row="2" cols="20" style="margin-left:150px;"></textarea>
+                                                 <br>
+                                            </tr> 
+                                            <tr>
+                                                <th> <lable> Image </lable></th>
+                                                <th> <input type="file"style="margin-left:150px;"> <br>
+                                                     </th>
+                                            </tr>
+                                             <tr>
+                                                <th><lable> Age group</lable></th>
+                                                <th> <select  style="margin-left: -10px;">
+                                                    <option>0 to 9 years</option>
+                                                    <option>1 years </option>
+                                                    <option>2 years </option>
+                                                    <option>3 years </option>
+                                                    <option>4 years </option>
+                                                    <option>5 years </option>
+                                                    <option>6 years </option>
+                                                    <option>7 years </option>
+                                                    <option>8 years </option>
+                                                    <option>9 years </option>
+                                                    </select> <br> 
+                                                </th>
+                                            </tr>
+
+                                        </table>
+                                        </fieldset> <br>
+                                    <fieldset>
+                                        <legend >Interests </legend>
+                                        <table border="0">
+                                            <tr>
+                                                <th> <lable>Hobbies</lable></th>
+                                                <th>
+                                                    <select  style="margin-left: 165px;">
+                                                        <option>Playing soccer</option>
+                                                        <option>Dancing</option>
+                                                        <option>Gardening</option>
+                                                        <option>Watching movies</option> 
+                                                    </select><br> 
+                                                </th>
+                                            </tr>
+                                        </table>
+                                        <table border="0"> 
+                                           <tr>
+                                            <th> <lable>Favourite car?</lable>  </th>
+                                            <th>
+                                                <select  style="margin-left: 120px;">
+                                                    <option>Volvo</option>
+                                                    <option>Mercedes</option>
+                                                    Biography
+                                                    <option>BMW</option> 
+                                                </select><br> 
+                                            </th>
+                                           </tr>
+                                       </table >
+                                       <table border="0">
+                                        <tr>
+                                            <th> <lable> Favourite public transport ? </lable></th>
+                                            <th> <select  style="margin-left:27px;">
+                                                <optgroup label="Ground"> 
+                                                <option value="Train"> Train </option>
+                                                <option value="Bus"> Bus </option>
+                                                </otpgroup> 
+                                                <optgroup label="water">
+                                                    <option value="sheep">sheep</option>
+                                                </optgroup>
+                                                </select>
+                                             </th>
+                                        </tr>
+                                        </table>
+                                    </fieldset>
+                                </body>
+                                </html
+    
